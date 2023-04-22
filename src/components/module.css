@@ -1,0 +1,49 @@
+#status {
+    height: 100px;
+    width: 140px;
+    border-bottom: 1px solid #80868b;
+    padding-left: 10px;
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    margin-left: 30px;
+    color: white;
+}
+
+#status>div {
+    display: flex;
+    align-items: end;
+    line-height: 0;
+}
+
+#status h1 {
+    font-size: 50px;
+    font-weight: 500;
+}
+
+#status p {
+    font-size: 22px;
+}
+
+#foot {
+    height: 70px;
+    border-top: 1px solid #80868b;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    gap: 20px;
+    padding-left: 20px;
+}
+
+#foot button {
+    height: 27px;
+    width: 70px;
+    border: none;
+    font-weight: 500;
+    font-size: 12px;
+    border-radius: 2px;
+}
+
+#foot button:nth-child(1) {
+    background-color: #8ab4f8;
+}
